@@ -1,0 +1,33 @@
+ ul {
+      list-style: none;      /* Removes bullets */
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      display: inline-block; /* Makes the list items appear side by side */
+      margin-right: 20px;    /* Spacing between items */
+    }
+
+    a {
+      text-decoration: none; /* Optional: removes underline from links */
+      color: black;          /* Optional: sets text color */
+    }
+
+    a:hover {
+      color: blue;           /* Optional: color change on hover */
+    }
+
+     .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px; /* Optional spacing between images */
+    }
+
+    .image-container img {
+      width: 1000px;  /* Set the width */
+      height: 500px; /* Set the height */
+      object-fit: cover; /* Crop image to fit the box without distortion */
+      border-radius: 10px; /* Optional: make the image corners rounded */
+    }
